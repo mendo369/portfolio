@@ -19,7 +19,7 @@
     <div class="img-container">
       <div class="img">
         <img
-          src="../assets/images/1701098779912.jpg"
+          src="../../public/images/1701098779912.jpg"
           alt="img"
           title="Luis David Mendoza"
         />

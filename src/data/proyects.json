@@ -1,33 +1,33 @@
 [
   {
-    "image": "/assets/images/colrifas.png",
+    "image": "/images/colrifas.png",
     "name": "Colrifas",
     "description": "colrifas lorem ipsum ",
     "tecnologies": [
-      { "title": "NextJs", "src": "/assets/icons/nextjs.svg" },
-      { "title": "Redux", "src": "/assets/icons/redux.svg" },
-      { "title": "CSS", "src": "/assets/icons/css.svg" },
-      { "title": "Express", "src": "/assets/icons/express.svg" },
-      { "title": "MongoDB", "src": "/assets/icons/mongo.svg" }
+      { "title": "NextJs", "src": "/icons/nextjs.svg" },
+      { "title": "Redux", "src": "/icons/redux.svg" },
+      { "title": "CSS", "src": "/src/a/css.svg" },
+      { "title": "Express", "src": "/icons/express.svg" },
+      { "title": "MongoDB", "src": "/icons/mongo.svg" }
     ]
   },
   {
-    "image": "/assets/images/presupuesto.png",
+    "image": "/images/presupuesto.png",
     "name": "Presupuesto App",
     "description": "Presupuesto App lorem ipsum ",
     "tecnologies": [
-      { "title": "Angular", "src": "/assets/icons/angular.svg" },
-      { "title": "Bootstrap", "src": "/assets/icons/bootstrap.svg" }
+      { "title": "Angular", "src": "/icons/angular.svg" },
+      { "title": "Bootstrap", "src": "/icons/bootstrap.svg" }
     ]
   },
   {
-    "image": "/assets/images/control_clientes.png",
+    "image": "/images/control_clientes.png",
     "name": "Control Clientes",
     "description": "Presupuesto App lorem ipsum ",
     "tecnologies": [
-      { "title": "Angular", "src": "/assets/icons/angular.svg" },
-      { "title": "Bootstrap", "src": "/assets/icons/bootstrap.svg" },
-      { "title": "Firebase", "src": "/assets/icons/firebase.svg" }
+      { "title": "Angular", "src": "/icons/angular.svg" },
+      { "title": "Bootstrap", "src": "/icons/bootstrap.svg" },
+      { "title": "Firebase", "src": "/icons/firebase.svg" }
     ]
   }
 ]
