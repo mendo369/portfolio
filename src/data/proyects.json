@@ -6,7 +6,7 @@
     "tecnologies": [
       { "title": "NextJs", "src": "/icons/nextjs.svg" },
       { "title": "Redux", "src": "/icons/redux.svg" },
-      { "title": "CSS", "src": "/src/a/css.svg" },
+      { "title": "CSS", "src": "/icons/css.svg" },
       { "title": "Express", "src": "/icons/express.svg" },
       { "title": "MongoDB", "src": "/icons/mongo.svg" }
     ]
@@ -23,7 +23,7 @@
   {
     "image": "/images/control_clientes.png",
     "name": "Control Clientes",
-    "description": "Presupuesto App lorem ipsum ",
+    "description": "Presupuesto App lorem ipsum test@test.com 123456",
     "tecnologies": [
       { "title": "Angular", "src": "/icons/angular.svg" },
       { "title": "Bootstrap", "src": "/icons/bootstrap.svg" },

@@ -7,7 +7,17 @@
       <ul class="navigation-list">
         <li>Me</li>
         <li>Proyect</li>
-        <li>Github</li>
+        <li>
+          Github
+          <span
+            ><img
+              src="/icons/github.svg"
+              alt="_gh"
+              title="GitHub"
+              width="30px"
+              height="30px"
+          /></span>
+        </li>
       </ul>
     </div>
   </nav>
