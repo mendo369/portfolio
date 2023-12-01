@@ -11,6 +11,7 @@ import Proyect from "./proyects/proyect.vue";
       <Proyect
         v-for="proyect in proyects"
         :key="proyect.name"
+        :image="proyect.image"
         :name="proyect.name"
         :description="proyect.description"
         :tecnologies="proyect.tecnologies"

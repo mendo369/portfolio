@@ -2,6 +2,7 @@
 import Header from "./components/Header.vue";
 import AboutMe from "./components/AboutMe.vue";
 import Proyects from "./components/Proyects.vue";
+import Experiencie from "./components/Experiencie.vue";
 import Education from "./components/Education.vue";
 import Footer from "./components/Footer.vue";
 </script>
@@ -11,6 +12,7 @@ import Footer from "./components/Footer.vue";
     <Header />
     <AboutMe />
     <Proyects />
+    <Experiencie />
     <Education />
     <Footer />
   </div>

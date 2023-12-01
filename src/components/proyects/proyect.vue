@@ -1,5 +1,6 @@
 <script setup>
 defineProps({
+  image: String,
   name: String,
   description: String,
   tecnologies: Array,
@@ -10,6 +11,7 @@ defineProps({
   <li class="proyect">
     <div class="gallery">
       <div class="img-main">
+        <img :src="image" alt="_img" />
         <!-- <iframe width="300" height="200" src="https://colrifas.netlify.app">
         </iframe> -->
       </div>
@@ -70,6 +72,13 @@ defineProps({
   height: 200px;
   margin: auto;
   border-radius: 5px;
+  box-shadow: 0px 2px 5px #fce300;
+  cursor: pointer;
+}
+
+.img-main img {
+  width: 100%;
+  height: 100%;
 }
 
 .description {
