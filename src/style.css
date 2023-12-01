@@ -18,7 +18,7 @@
 body {
   display: flex;
   place-items: center;
-  width: 100vw;
+  width: 100%;
   min-height: 100vh;
   background-image: linear-gradient(
     to right,
@@ -38,9 +38,31 @@ body {
   color: var(--white-color);
 }
 
+body {
+  --sb-size: 10px;
+
+  scrollbar-color: var(--bandito-yellow-color-color)
+    var(--vulture-black-color-color);
+}
+
+body::-webkit-scrollbar {
+  width: var(--sb-size);
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--sb-track-color);
+  border-radius: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: var(--sb-thumb-color);
+  border-radius: 10px;
+}
+
 #app {
   width: 100%;
   min-height: 100vh;
+  overflow-x: hidden;
 }
 
 /* 

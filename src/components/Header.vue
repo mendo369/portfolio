@@ -28,9 +28,6 @@
   align-items: center;
 }
 
-.title {
-}
-
 .navigation-list {
   list-style: none;
   display: flex;

@@ -23,7 +23,6 @@ import Footer from "./components/Footer.vue";
   justify-content: center;
   align-items: center;
   width: 100%;
-  position: relative;
-  gap: 1em;
+  gap: 2em;
 }
 </style>

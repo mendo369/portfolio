@@ -1,0 +1,38 @@
+[
+  {
+    "image": "/src/images/",
+    "name": "Colrifas",
+    "description": "colrifas lorem ipsum ",
+    "tecnologies": [
+      { "title": "Redux", "src": "/src/assets/icons/redux.svg" },
+      { "title": "CSS", "src": "/src/assets/icons/css.svg" }
+    ]
+  },
+  {
+    "image": "/src/images/",
+    "name": "Presupuesto App",
+    "description": "Presupuesto App lorem ipsum ",
+    "tecnologies": [
+      { "title": "Redux", "src": "/src/assets/icons/redux.svg" },
+      { "title": "CSS", "src": "/src/assets/icons/css.svg" }
+    ]
+  },
+  {
+    "image": "/src/images/",
+    "name": "Orbit IA",
+    "description": "Orbit IA lorem ipsum ",
+    "tecnologies": [
+      { "title": "Redux", "src": "/src/assets/icons/redux.svg" },
+      { "title": "CSS", "src": "/src/assets/icons/css.svg" }
+    ]
+  },
+  {
+    "image": "/src/images/",
+    "name": ".Net Freelancer",
+    "description": "Freelancer lorem ipsum ",
+    "tecnologies": [
+      { "title": "Redux", "src": "/src/assets/icons/redux.svg" },
+      { "title": "CSS", "src": "/src/assets/icons/css.svg" }
+    ]
+  }
+]

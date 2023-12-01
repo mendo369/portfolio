@@ -1,14 +1,38 @@
-<script setup></script>
+<script setup>
+import proyects from "../data/proyects.json";
+console.log(proyects);
+import Proyect from "./proyects/proyect.vue";
+</script>
 
 <template>
   <div class="proyects">
-    <ul>
-      <li>Colrifas</li>
-      <!-- <li>Colombianitas</li> -->
-      <li>Presupuesto App</li>
-      <li>Orbit IA</li>
+    <h2 class="title">Proyects</h2>
+    <ul class="proyects-list">
+      <Proyect
+        v-for="proyect in proyects"
+        :key="proyect.name"
+        :name="proyect.name"
+        :description="proyect.description"
+        :tecnologies="proyect.tecnologies"
+      />
     </ul>
   </div>
 </template>
 
-<style scoped></style>
+<style scoped>
+.proyects {
+  width: 80%;
+}
+
+.title {
+  margin-bottom: 1em;
+}
+
+.proyects-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1em;
+}
+</style>

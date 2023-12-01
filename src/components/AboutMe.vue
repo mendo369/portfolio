@@ -3,11 +3,11 @@
 <template>
   <div class="about-me">
     <div class="hello">
-      <p class="hello-text">
+      <h2 class="hello-text">
         Hello <span class="dot">.</span>
         <br />
         I am Luis
-      </p>
+      </h2>
       <p class="presentation-text">
         Web developer with 1+ years of experience in frontend and backend
         development. Proven ability to create attractive and functional web
@@ -18,7 +18,11 @@
     </div>
     <div class="img-container">
       <div class="img">
-        <img src="../assets/images/1701098779912.jpg" alt="img" />
+        <img
+          src="../assets/images/1701098779912.jpg"
+          alt="img"
+          title="Luis David Mendoza"
+        />
       </div>
     </div>
   </div>
@@ -58,6 +62,8 @@
 
 .img-container {
   flex: 1;
+  display: flex;
+  justify-content: center;
 }
 
 .img {
@@ -66,16 +72,6 @@
   min-height: 200px;
   max-height: 200px;
   border-radius: 50%;
-  /* clip-path: polygon(
-    20% 0%,
-    80% 0%,
-    100% 20%,
-    100% 80%,
-    80% 100%,
-    20% 100%,
-    0% 80%,
-    0% 20%
-  ); */
   overflow: hidden;
   background-color: var(--bandito-yellow-color);
 }

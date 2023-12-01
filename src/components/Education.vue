@@ -4,4 +4,8 @@
   <div>Education</div>
 </template>
 
-<style scoped></style>
+<style scoped>
+div {
+  height: 400px;
+}
+</style>
