@@ -3,6 +3,7 @@ defineProps({
   image: String,
   name: String,
   description: String,
+  url: String,
   tecnologies: Array,
 });
 </script>
@@ -10,7 +11,15 @@ defineProps({
 <template>
   <li class="proyect">
     <div class="gallery">
-      <div class="img-main">
+      <div
+        class="img-main"
+        @click="
+          () => {
+            alert(2132);
+            // window.open(`${url}`, { newTab: true });
+          }
+        "
+      >
         <img :src="image" alt="_img" />
         <!-- <iframe width="300" height="200" src="https://colrifas.netlify.app">
         </iframe> -->
@@ -86,6 +95,7 @@ defineProps({
   display: flex;
   flex-direction: column;
   gap: 1em;
+  min-width: 300px;
 }
 
 .proyect-name {

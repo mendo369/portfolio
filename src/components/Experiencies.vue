@@ -1,4 +1,6 @@
 <script setup>
+import experiencies from "../data/experiencies.json";
+console.log(experiencies);
 import Experiencie from "./experiencies/experiencie.vue";
 </script>
 
@@ -6,8 +8,14 @@ import Experiencie from "./experiencies/experiencie.vue";
   <div class="experiencies">
     <h2 class="title">Experiencies</h2>
     <ul class="experiencies-list">
-      <Experiencie />
-      <Experiencie />
+      <Experiencie
+        v-for="experiencie in experiencies"
+        :key="experiencie.title"
+        :image="experiencie.img"
+        :title="experiencie.title"
+        :description="experiencie.description"
+        :tecnologies="experiencie.tecnologies"
+      />
     </ul>
   </div>
 </template>

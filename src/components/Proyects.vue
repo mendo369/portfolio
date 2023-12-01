@@ -5,7 +5,7 @@ import Proyect from "./proyects/proyect.vue";
 </script>
 
 <template>
-  <div class="proyects">
+  <div class="proyects" id="proyects">
     <h2 class="title">Proyects</h2>
     <ul class="proyects-list">
       <Proyect
@@ -14,6 +14,7 @@ import Proyect from "./proyects/proyect.vue";
         :image="proyect.image"
         :name="proyect.name"
         :description="proyect.description"
+        :url="proyect.url"
         :tecnologies="proyect.tecnologies"
       />
     </ul>

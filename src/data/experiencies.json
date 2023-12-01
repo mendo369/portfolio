@@ -1,0 +1,40 @@
+[
+  {
+    "img": "/images/nvo.jpg",
+    "title": "NVO FrontEnd Dev",
+    "description": "As a frontend developer, I used the React library to create user-friendly interfaces. I used Tailwind to style the components, which allowed me to create visually appealing and easy-to-use interfaces. In addition to creating interfaces, I also helped to find suitable solutions to certain problems within the company. This led me to be constantly learning about other technologies that were necessary to implement within the company.",
+    "tecnologies": [
+      {
+        "title": "React",
+        "src": "/icons/react.svg"
+      },
+      {
+        "title": "Tailwind",
+        "src": "/icons/tailwind.svg"
+      }
+    ]
+  },
+  {
+    "img": "/images/dotnet.png",
+    "title": ".Net Freelancer",
+    "description": "The DevExpress components allowed me to create complex and attractive user interfaces easily. They offer a wide range of controls and widgets, which allowed me to create custom interfaces that met the specific needs of the company. SQL Server is a robust and scalable relational database that allowed me to store and manage the company's data. Entity Framework is an ORM framework that made it easy for me to interact with the database. Using these technologies, I was able to develop the requirements that met the needs of the company.",
+    "tecnologies": [
+      {
+        "title": ".Net",
+        "src": "/icons/dot_net.svg"
+      },
+      {
+        "title": "DevExpress",
+        "src": "/icons/devexpress.svg"
+      },
+      {
+        "title": "Bootstrap",
+        "src": "/icons/bootstrap.svg"
+      },
+      {
+        "title": "SQL Server",
+        "src": "/icons/sqlserver.svg"
+      }
+    ]
+  }
+]

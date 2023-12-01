@@ -1,7 +1,7 @@
 <script setup></script>
 
 <template>
-  <div class="about-me">
+  <div class="about-me" id="about-me">
     <div class="hello">
       <h2 class="hello-text">
         Hello <span class="dot">.</span>

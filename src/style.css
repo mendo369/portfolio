@@ -59,6 +59,11 @@ body::-webkit-scrollbar-thumb {
   border-radius: 10px;
 }
 
+a {
+  text-decoration: none;
+  color: unset;
+}
+
 #app {
   width: 100%;
   min-height: 100vh;

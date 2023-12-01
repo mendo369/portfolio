@@ -9,16 +9,23 @@ defineProps({
 
 <template>
   <li class="experiencie">
-    <div class="img"><img src="" alt="_img" /></div>
-    <h3 class="title">Title</h3>
+    <div class="img"><img :src="image" alt="_img" /></div>
+    <h3 class="title">{{ title }}</h3>
     <div class="tecnologies">
       <ul class="tecnologies-list">
-        <li class="tecnologie">item</li>
-        <li class="tecnologie">item</li>
-        <li class="tecnologie">item</li>
+        <li class="tecnologie" v-for="t in tecnologies" :key="t.title">
+          <img
+            :src="t.src"
+            :alt="t.title"
+            :title="t.title"
+            width="30"
+            height="30"
+          />
+        </li>
       </ul>
     </div>
     <p class="description">
+      {{ description }}
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur
       aliquam veritatis, distinctio aspernatur facilis voluptas numquam sed
       perferendis, saepe vero maxime quidem quae cumque accusamus soluta
@@ -45,9 +52,22 @@ defineProps({
   clip-path: polygon(50% 0, 100% 20%, 100% 80%, 50% 100%, 0 80%, 0 20%);
 }
 
+.img img {
+  width: 100%;
+  height: 100%;
+}
+
 .tecnologies-list {
   list-style: none;
   display: flex;
   gap: 10px;
+}
+
+.tecnologie {
+  cursor: pointer;
+}
+
+.description {
+  text-align: center;
 }
 </style>

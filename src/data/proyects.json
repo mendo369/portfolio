@@ -2,7 +2,8 @@
   {
     "image": "/images/colrifas.png",
     "name": "Colrifas",
-    "description": "colrifas lorem ipsum ",
+    "description": "Colrifas is a web application designed to help people who sell raffles on  a regular basis, aiming to optimize the purchase and sale process. The application offers a series of features that make it easier to manage raffles, such as creating raffles, selling raffles, tracking sales, and drawing raffles.  One of the main functions of Colrifas is raffle creation. The application allows you to quickly and easily create raffles, specifying the prize, the number of raffles, the price of each raffle, and the date of the draw.",
+    "url": "https://colrifas.netlify.app",
     "tecnologies": [
       { "title": "NextJs", "src": "/icons/nextjs.svg" },
       { "title": "Redux", "src": "/icons/redux.svg" },
@@ -14,7 +15,8 @@
   {
     "image": "/images/presupuesto.png",
     "name": "Presupuesto App",
-    "description": "Presupuesto App lorem ipsum ",
+    "description": "This application allows you to see your income, expenses, and debt capacity in a clear and organized way. With this information, the app can help you make better financial decisions. For example, you can use it to identify areas where you can reduce your spending, to plan your savings, or to evaluate whether you can afford a new loan.",
+    "url": "https://presupuesto-dema-com.netlify.app/",
     "tecnologies": [
       { "title": "Angular", "src": "/icons/angular.svg" },
       { "title": "Bootstrap", "src": "/icons/bootstrap.svg" }
@@ -23,7 +25,8 @@
   {
     "image": "/images/control_clientes.png",
     "name": "Control Clientes",
-    "description": "Presupuesto App lorem ipsum test@test.com 123456",
+    "description": "Keeping track of customer balances is important for businesses to be able to assess their liquidity and determine if they are able to meet their financial obligations. The application can help you track the balance of each customer, as well as the total balance of all customers. Editing customer information may be necessary to update their data, such as their address, phone number, or email address. The application can help you make these changes quickly and easily. CREDENTIALS: test@test.com | 123456",
+    "url": "https://control-clientes.netlify.app/",
     "tecnologies": [
       { "title": "Angular", "src": "/icons/angular.svg" },
       { "title": "Bootstrap", "src": "/icons/bootstrap.svg" },

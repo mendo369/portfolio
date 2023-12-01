@@ -5,18 +5,18 @@
     <div class="title"><h1>Luis David Mendoza</h1></div>
     <div class="navigation">
       <ul class="navigation-list">
-        <li>Me</li>
-        <li>Proyect</li>
+        <li><a href="#about-me">Me</a></li>
+        <li><a href="#proyects">Proyects</a></li>
         <li>
-          Github
-          <span
+          <a href="https://github.com/mendo369" target="_blank">GitHub</a>
+          <!-- <span
             ><img
               src="/icons/github.svg"
               alt="_gh"
               title="GitHub"
               width="30px"
               height="30px"
-          /></span>
+          /></span> -->
         </li>
       </ul>
     </div>
@@ -43,5 +43,8 @@
   display: flex;
   flex-wrap: nowrap;
   gap: 10px;
+}
+.navigation-list li {
+  cursor: pointer;
 }
 </style>
