@@ -6,6 +6,10 @@ defineProps({
   url: String,
   tecnologies: Array,
 });
+
+const navigate = (url) => {
+  window.open(url);
+};
 </script>
 
 <template>
@@ -15,8 +19,7 @@ defineProps({
         class="img-main"
         @click="
           () => {
-            alert(2132);
-            // window.open(`${url}`, { newTab: true });
+            navigate(url);
           }
         "
       >
