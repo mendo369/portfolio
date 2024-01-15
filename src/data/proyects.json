@@ -32,5 +32,21 @@
       { "title": "Bootstrap", "src": "/icons/bootstrap.svg" },
       { "title": "Firebase", "src": "/icons/firebase.svg" }
     ]
+  },
+  {
+    "image": "/images/opencvproject.jpg",
+    "name": "OpenCvSharp Video Split Frames",
+    "description": "This console application asks you to enter the URL of a video and then allows you to choose between two options. The first option allows you to split the video into frames and save them to the path you entered. The second option allows you to obtain the face of the person in the video (if there is one) and will save an image highlighting the eyes, nose, and mouth.",
+    "url": "https://github.com/mendo369/opencv_dotnet",
+    "tecnologies": [
+      {
+        "title": ".Net",
+        "src": "/icons/dot_net.svg"
+      },
+      {
+        "title": "OpenCvSharp",
+        "src": "/icons/opencv.svg"
+      }
+    ]
   }
 ]
