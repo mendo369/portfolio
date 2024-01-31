@@ -13,6 +13,50 @@
     ]
   },
   {
+    "image": "/images/opencvproject.jpg",
+    "name": "OpenCvSharp Video Split Frames",
+    "description": "This console application asks you to enter the URL of a video and then allows you to choose between two options. The first option allows you to split the video into frames and save them to the path you entered. The second option allows you to obtain the face of the person in the video (if there is one) and will save an image highlighting the eyes, nose, and mouth.",
+    "url": "https://github.com/mendo369/opencv_dotnet",
+    "tecnologies": [
+      {
+        "title": ".Net",
+        "src": "/icons/dot_net.svg"
+      },
+      {
+        "title": "OpenCvSharp",
+        "src": "/icons/opencv.svg"
+      }
+    ]
+  },
+  {
+    "image": "/images/contactos-api.png",
+    "name": "ContactOS API",
+    "description": "This .NET API streamlines the registration process, allowing users to easily sign up with just their name and phone number. Once registered, users can centrally manage their contacts, notes, and important dates. The intuitive and accessible interface ensures a hassle-free user experience. It stands out for its ability to organize contacts, facilitate the taking of important notes, and remember crucial dates, providing a comprehensive solution for personal information management.\n ",
+    "url": "http://contact-os.somee.com/",
+    "tecnologies": [
+      {
+        "title": ".Net",
+        "src": "/icons/dot_net.svg"
+      }
+    ]
+  },
+  {
+    "image": "/images/contactos.png",
+    "name": "ContactOS (DEV)",
+    "description": "ContactOS is an innovative web application designed to provide you with the convenience of storing and managing your essential data online. This platform offers you the ability to organize your contacts, take important notes, and efficiently remember significant dates. Simplicity and ease of access are its key features, as you can enjoy all its functionalities by simply registering with your name and phone number. ",
+    "url": "https://contact-os.netlify.app/",
+    "tecnologies": [
+      {
+        "title": "Angular",
+        "src": "/icons/angular.svg"
+      },
+      {
+        "title": "CSS",
+        "src": "/icons/css.svg"
+      }
+    ]
+  },
+  {
     "image": "/images/presupuesto.png",
     "name": "Presupuesto App",
     "description": "This application allows you to see your income, expenses, and debt capacity in a clear and organized way. With this information, the app can help you make better financial decisions. For example, you can use it to identify areas where you can reduce your spending, to plan your savings, or to evaluate whether you can afford a new loan.",
@@ -31,22 +75,6 @@
       { "title": "Angular", "src": "/icons/angular.svg" },
       { "title": "Bootstrap", "src": "/icons/bootstrap.svg" },
       { "title": "Firebase", "src": "/icons/firebase.svg" }
-    ]
-  },
-  {
-    "image": "/images/opencvproject.jpg",
-    "name": "OpenCvSharp Video Split Frames",
-    "description": "This console application asks you to enter the URL of a video and then allows you to choose between two options. The first option allows you to split the video into frames and save them to the path you entered. The second option allows you to obtain the face of the person in the video (if there is one) and will save an image highlighting the eyes, nose, and mouth.",
-    "url": "https://github.com/mendo369/opencv_dotnet",
-    "tecnologies": [
-      {
-        "title": ".Net",
-        "src": "/icons/dot_net.svg"
-      },
-      {
-        "title": "OpenCvSharp",
-        "src": "/icons/opencv.svg"
-      }
     ]
   }
 ]
