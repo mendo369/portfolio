@@ -31,8 +31,8 @@
   {
     "image": "/images/contactos-api.png",
     "name": "ContactOS API",
-    "description": "This .NET API streamlines the registration process, allowing users to easily sign up with just their name and phone number. Once registered, users can centrally manage their contacts, notes, and important dates. The intuitive and accessible interface ensures a hassle-free user experience. It stands out for its ability to organize contacts, facilitate the taking of important notes, and remember crucial dates, providing a comprehensive solution for personal information management.\n ",
-    "url": "http://contact-os.somee.com/",
+    "description": "This .NET API streamlines the registration process, allowing users to easily sign up with just their name and phone number. Once registered, users can centrally manage their contacts, notes, and important dates. The intuitive and accessible interface ensures a hassle-free user experience. It stands out for its ability to organize contacts, facilitate the taking of important notes, and remember crucial dates, providing a comprehensive solution for personal information management.",
+    "url": "http://www.contact-os.somee.com/swagger/index.html",
     "tecnologies": [
       {
         "title": ".Net",
