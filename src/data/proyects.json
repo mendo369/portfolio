@@ -1,5 +1,16 @@
 [
   {
+    "image": "/images/english-valley.png",
+    "name": "English Valley",
+    "description": "English Valley is your ideal study partner to improve your English. With a wide variety of questions designed for different levels, from beginner to advanced, our platform helps you review and strengthen your language skills. Whether you're studying for an exam, preparing for an interview, or simply wishing to enhance your English, English Valley provides the practice you need.",
+    "url": "https://english-valley.netlify.app",
+    "tecnologies": [
+      { "title": "Vue", "src": "/icons/vue.svg" },
+      { "title": "Pinia", "src": "/icons/pinia.svg" },
+      { "title": "CSS", "src": "/icons/css.svg" }
+    ]
+  },
+  {
     "image": "/images/colrifas.png",
     "name": "Colrifas",
     "description": "Colrifas is a web application designed to help people who sell raffles on  a regular basis, aiming to optimize the purchase and sale process. The application offers a series of features that make it easier to manage raffles, such as creating raffles, selling raffles, tracking sales, and drawing raffles.  One of the main functions of Colrifas is raffle creation. The application allows you to quickly and easily create raffles, specifying the prize, the number of raffles, the price of each raffle, and the date of the draw.",
