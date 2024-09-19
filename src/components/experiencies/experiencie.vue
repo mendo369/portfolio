@@ -26,10 +26,6 @@ defineProps({
     </div>
     <p class="description">
       {{ description }}
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur
-      aliquam veritatis, distinctio aspernatur facilis voluptas numquam sed
-      perferendis, saepe vero maxime quidem quae cumque accusamus soluta
-      asperiores sapiente. Assumenda, sapiente?
     </p>
   </li>
 </template>

@@ -36,5 +36,31 @@
         "src": "/icons/sqlserver.svg"
       }
     ]
+  },
+  {
+    "img": "/images/zero.jpg",
+    "title": "Zero FrontEnd Dev",
+    "description": "I played a key role in developing a web platform that streamlined internal operations for a healthcare organization. I designed and implemented the main dashboard, providing users with valuable insights and improving decision-making. Additionally, I ensured the platform was fully responsive, enhancing user experience across devices.",
+    "tecnologies": [
+      {
+        "title": "React",
+        "src": "/icons/react.svg"
+      },
+      {
+        "title": "Tailwind",
+        "src": "/icons/tailwind.svg"
+      }
+    ]
+  },
+  {
+    "img": "/images/logo-aqualia.jpg",
+    "title": "React Freelancer FrontEnd Dev",
+    "description": "Identified and resolved several errors in a sanitation company's dashboard, including data visualization issues and calculation errors. Additionally, I implemented new functionalities using React and Mantine",
+    "tecnologies": [
+      {
+        "title": "React",
+        "src": "/icons/react.svg"
+      }
+    ]
   }
 ]
