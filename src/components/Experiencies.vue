@@ -15,6 +15,7 @@ import Experiencie from "./experiencies/experiencie.vue";
         :title="experiencie.title"
         :description="experiencie.description"
         :tecnologies="experiencie.tecnologies"
+        :url="experiencie.url"
       />
     </ul>
   </div>

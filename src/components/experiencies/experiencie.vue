@@ -4,6 +4,7 @@ defineProps({
   title: String,
   description: String,
   tecnologies: Array,
+  url:String
 });
 </script>
 
@@ -26,6 +27,8 @@ defineProps({
     </div>
     <p class="description">
       {{ description }}
+      <br>
+      <a :href="url">{{ url }}</a>
     </p>
   </li>
 </template>
@@ -65,5 +68,9 @@ defineProps({
 
 .description {
   text-align: center;
+}
+
+a{
+  color: var(--bandito-yellow-color);
 }
 </style>
